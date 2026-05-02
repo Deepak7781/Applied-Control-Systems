@@ -58,3 +58,14 @@ $$
 }
 $$
 
+The above is continuous form of the mathematical model for the system.
+
+Using numerical integration (trapezoidal rule), we can derive a discrete form of the mathematical model for the system.
+
+$$
+    \boxed{
+    vol(t_j) = vol(t_{j-1}) + \left(\frac{\frac{1}{\rho} \dot{m}[t_{j-1}] + \frac{1}{\rho} \dot{m}[t_{j}]}{2}\right) \Delta t
+    }
+$$
+
+The above equation is the discrete form of the mathematical model for the water tank system. This model is used in computer programs.
