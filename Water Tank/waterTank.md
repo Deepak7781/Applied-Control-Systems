@@ -97,7 +97,8 @@ $$
 
 For transfer function, the initial conditions are assumed to be zero, $V(0) = 0$
 
-So 
+So
+ 
 $$
     sV(s) = \frac{1}{\rho}\dot{M}(s)
 $$
