@@ -1,3 +1,44 @@
 # Mathematical Model of a Water Tank
 
 ![Water Tank Model](waterTankModel.png)
+
+To build a mathematical model of a physical system, first we need to identify the input and output. 
+
+As seen in the above block diagram, we choose the input as mass flow rate, $\dot{m}$ ($kg/s$)  and output as volume, $V$ ($m^3$).
+
+We need to find a relation which gives output as a funtion of input, i.e., $V$ as a function of $\dot{m}$
+
+Mass flow rate,
+
+$$
+    \dot{m} = \frac{d(mass_w)}{dt}
+$$
+
+where $mass_w$ is the mass of water
+
+$$
+    mass_w = vol_w \times density_w = vol_w \times \rho_w
+$$
+
+$$
+    \dot{m} = \frac{d(vol_w \times \rho_w)}{dt}
+
+$$
+
+$$
+   \dot{m} = \frac{d(vol_w)}{dt} \times \rho_w + \frac{\rho_w}{dt} \times vol_w
+$$
+
+As inside the tank, there is only water, the density is constant so the term $\frac{d(\rho_w)}{dt}$ becomes zero
+
+$$
+    \dot{m} = \frac{d(vol_w)}{dt} \times \rho_w
+$$
+
+
+$$
+\boxed{
+    \frac{d(vol_w)}{dt} = \frac{1}{\rho_w} \times \dot{m}
+}
+$$
+
