@@ -69,3 +69,29 @@ $$
 $$
 
 The above equation is the discrete form of the mathematical model for the water tank system. This model is used in computer programs.
+
+## Derivation of Transfer Function
+
+We know that,
+
+$$
+    \frac{d(vol_w)}{dt} = \frac{1}{\rho_w} \times \dot{m}
+$$
+
+The above equation can be written as,
+
+$$
+    \frac{dv(t)}{dt} = \frac{1}{\rho_w} \times \dot{m}(t)
+$$
+
+where,
+- $v(t) = $ volume of water in tank
+- $\dot{m}(t) =$ mass flow rate 
+- $\rho = $ density of water
+
+Taking Laplace Transform,
+
+$$
+    sV(s) - V(0) = \frac{1}{\rho} \dot{M}(s)
+$$
+
