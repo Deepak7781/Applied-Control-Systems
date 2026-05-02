@@ -95,3 +95,15 @@ $$
     sV(s) - V(0) = \frac{1}{\rho} \dot{M}(s)
 $$
 
+For transfer function, the initial conditions are assumed to be zero, $V(0) = 0$
+
+So 
+$$
+    sV(s) = \frac{1}{\rho}\dot{M}(s)
+$$
+
+Therefore, 
+
+$$
+    \frac{V(s)}{\dot{M(s)}} = \frac{1}{\rho s} 
+$$
