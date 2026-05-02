@@ -42,3 +42,16 @@ $$
 }
 $$
 
+We want output as a function of input - Volume as a function of mass flow rate. So we integrate the above equation to get the function.
+
+$$
+    \int_{vol_i}^{vol(t)} d(vol) = \int_0^t \frac{1}{\rho} \dot{m} \space dt = \frac{1}{\rho}\int_0^t \dot{m} \space dt
+$$
+
+$$
+    vol(t) - vol_i = \frac{1}{\rho} \int_0^t \dot{m} \space dt
+$$
+
+$$
+    vol(t) = vol_i + \frac{1}{\rho} \int_0^t \dot{m} \space dt
+$$
