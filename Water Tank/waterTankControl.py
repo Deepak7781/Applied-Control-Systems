@@ -1,5 +1,6 @@
 import control as ctrl
-import numpy as np
+
+import matplotlib.pyplot as plt
 
 s = ctrl.tf('s')
 
@@ -12,4 +13,11 @@ Kp = 0.5 # Proportional gain
 # Closed-loop transfer function with proportional control
 T = ctrl.feedback(Kp*G, 1)
 
-ctrl.step_response(T)
+t, y = ctrl.step_response(T)
+
+plt.plot(t, y)
+plt.xlabel('Time (s)')
+plt.ylabel('Volume')
+plt.title('Closed Loop Step Response')
+plt.grid()
+plt.show()
