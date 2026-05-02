@@ -18,3 +18,8 @@ for i in range(1, len(t)):
     Vol_I[i] = Vol_I[i-1] + (((mdot_in[i] + mdot_in[i-1])/2) * dt) # Update the volume of water in the tank
 
 plt.plot(t, Vol_I, label='Volume of Water in Tank (m^3)')
+plt.xlabel('Time (s)')
+plt.ylabel('Volume (m^3)')
+plt.title('Water Tank Level Control')
+plt.legend()
+plt.show()
