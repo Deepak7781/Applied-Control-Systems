@@ -53,5 +53,8 @@ $$
 $$
 
 $$
+\boxed{
     vol(t) = vol_i + \frac{1}{\rho} \int_0^t \dot{m} \space dt
+}
 $$
+
