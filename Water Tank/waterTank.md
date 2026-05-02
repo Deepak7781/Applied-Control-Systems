@@ -85,9 +85,9 @@ $$
 $$
 
 where,
-- $v(t) = $ volume of water in tank
+- $v(t) =$ volume of water in tank
 - $\dot{m}(t) =$ mass flow rate 
-- $\rho = $ density of water
+- $\rho =$ density of water
 
 Taking Laplace Transform,
 
