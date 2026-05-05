@@ -14,9 +14,3 @@ T = ctrl.feedback(Kp*G, 1)
 
 t, y = ctrl.step_response(T)
 
-plt.plot(t, y)
-plt.xlabel('Time (s)')
-plt.ylabel('Volume')
-plt.title('Closed Loop Step Response')
-plt.grid()
-plt.show()
