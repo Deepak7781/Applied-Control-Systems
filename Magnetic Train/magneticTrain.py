@@ -91,3 +91,12 @@ plt.ylabel("Acceleration (m/s²)")
 plt.title("Train Acceleration")
 plt.grid(True)
 
+# Plot control force
+plt.figure()
+plt.plot(t, u, linewidth=2)
+plt.xlabel("Time (s)")
+plt.ylabel("Control Force (N)")
+plt.title("PID Control Force")
+plt.grid(True)
+
+plt.show()
