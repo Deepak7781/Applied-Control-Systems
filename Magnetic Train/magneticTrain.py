@@ -15,7 +15,7 @@ v = np.zeros(len(t))
 x = np.zeros(len(t))
 
 error[0] = x_r - x_init
-f[0] = 0
+
 
 
 # Control gains for PID controller
