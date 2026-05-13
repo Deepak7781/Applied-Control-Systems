@@ -40,4 +40,5 @@ for i in range(1, len(t)):
     x[i] = x[i-1] + (((v[i-1] + v[i])/2)*dt)
 
 plt.plot(t,x)
+plt.grid('both')
 plt.show()
